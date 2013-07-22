@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C4871BB179D145B00847947 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4871BA179D145B00847947 /* Cocoa.framework */; };
+		9C4871BD179D145B00847947 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4871BC179D145B00847947 /* AppleScriptObjC.framework */; };
+		9C4871C7179D145B00847947 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C4871C5179D145B00847947 /* InfoPlist.strings */; };
+		9C4871C9179D145B00847947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4871C8179D145B00847947 /* main.m */; };
+		9C4871CD179D145B00847947 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9C4871CB179D145B00847947 /* Credits.rtf */; };
+		9C4871CF179D145B00847947 /* WkChkerAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 9C4871CE179D145B00847947 /* WkChkerAppDelegate.applescript */; };
+		9C4871D2179D145B00847947 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4871D0179D145B00847947 /* MainMenu.xib */; };
+		9C4871D9179D274E00847947 /* wakeCheckerIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4871D8179D274E00847947 /* wakeCheckerIcon2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C4871B7179D145B00847947 /* WakeupChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeupChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4871BA179D145B00847947 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9C4871BC179D145B00847947 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		9C4871BF179D145B00847947 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9C4871C0179D145B00847947 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9C4871C1179D145B00847947 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C4871C4179D145B00847947 /* WakeupChecker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WakeupChecker-Info.plist"; sourceTree = "<group>"; };
+		9C4871C6179D145B00847947 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C4871C8179D145B00847947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C4871CA179D145B00847947 /* WakeupChecker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WakeupChecker-Prefix.pch"; sourceTree = "<group>"; };
+		9C4871CC179D145B00847947 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9C4871CE179D145B00847947 /* WkChkerAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = WkChkerAppDelegate.applescript; sourceTree = "<group>"; };
+		9C4871D1179D145B00847947 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9C4871D8179D274E00847947 /* wakeCheckerIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wakeCheckerIcon2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C4871B4179D145B00847947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4871BB179D145B00847947 /* Cocoa.framework in Frameworks */,
+				9C4871BD179D145B00847947 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C4871AE179D145B00847947 = {
+			isa = PBXGroup;
+			children = (
+				9C4871C2179D145B00847947 /* WakeupChecker */,
+				9C4871B9179D145B00847947 /* Frameworks */,
+				9C4871B8179D145B00847947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C4871B8179D145B00847947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C4871B7179D145B00847947 /* WakeupChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4871B9179D145B00847947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C4871BA179D145B00847947 /* Cocoa.framework */,
+				9C4871BC179D145B00847947 /* AppleScriptObjC.framework */,
+				9C4871BE179D145B00847947 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C4871BE179D145B00847947 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C4871BF179D145B00847947 /* AppKit.framework */,
+				9C4871C0179D145B00847947 /* CoreData.framework */,
+				9C4871C1179D145B00847947 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9C4871C2179D145B00847947 /* WakeupChecker */ = {
+			isa = PBXGroup;
+			children = (
+				9C4871CE179D145B00847947 /* WkChkerAppDelegate.applescript */,
+				9C4871D0179D145B00847947 /* MainMenu.xib */,
+				9C4871C3179D145B00847947 /* Supporting Files */,
+			);
+			path = WakeupChecker;
+			sourceTree = "<group>";
+		};
+		9C4871C3179D145B00847947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C4871C4179D145B00847947 /* WakeupChecker-Info.plist */,
+				9C4871D8179D274E00847947 /* wakeCheckerIcon2.png */,
+				9C4871C5179D145B00847947 /* InfoPlist.strings */,
+				9C4871C8179D145B00847947 /* main.m */,
+				9C4871CA179D145B00847947 /* WakeupChecker-Prefix.pch */,
+				9C4871CB179D145B00847947 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C4871B6179D145B00847947 /* WakeupChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4871D5179D145B00847947 /* Build configuration list for PBXNativeTarget "WakeupChecker" */;
+			buildPhases = (
+				9C4871B3179D145B00847947 /* Sources */,
+				9C4871B4179D145B00847947 /* Frameworks */,
+				9C4871B5179D145B00847947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeupChecker;
+			productName = WakeupChecker;
+			productReference = 9C4871B7179D145B00847947 /* WakeupChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C4871AF179D145B00847947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WkChker;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sandwitchman;
+			};
+			buildConfigurationList = 9C4871B2179D145B00847947 /* Build configuration list for PBXProject "WakeupChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C4871AE179D145B00847947;
+			productRefGroup = 9C4871B8179D145B00847947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C4871B6179D145B00847947 /* WakeupChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C4871B5179D145B00847947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4871C7179D145B00847947 /* InfoPlist.strings in Resources */,
+				9C4871CD179D145B00847947 /* Credits.rtf in Resources */,
+				9C4871D2179D145B00847947 /* MainMenu.xib in Resources */,
+				9C4871D9179D274E00847947 /* wakeCheckerIcon2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C4871B3179D145B00847947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4871C9179D145B00847947 /* main.m in Sources */,
+				9C4871CF179D145B00847947 /* WkChkerAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C4871C5179D145B00847947 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4871C6179D145B00847947 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9C4871CB179D145B00847947 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4871CC179D145B00847947 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9C4871D0179D145B00847947 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4871D1179D145B00847947 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C4871D3179D145B00847947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C4871D4179D145B00847947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C4871D6179D145B00847947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WakeupChecker/WakeupChecker-Prefix.pch";
+				INFOPLIST_FILE = "WakeupChecker/WakeupChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C4871D7179D145B00847947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WakeupChecker/WakeupChecker-Prefix.pch";
+				INFOPLIST_FILE = "WakeupChecker/WakeupChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C4871B2179D145B00847947 /* Build configuration list for PBXProject "WakeupChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4871D3179D145B00847947 /* Debug */,
+				9C4871D4179D145B00847947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4871D5179D145B00847947 /* Build configuration list for PBXNativeTarget "WakeupChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4871D6179D145B00847947 /* Debug */,
+				9C4871D7179D145B00847947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C4871AF179D145B00847947 /* Project object */;
+}

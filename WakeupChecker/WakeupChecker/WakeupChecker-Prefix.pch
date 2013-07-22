@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'WakeupChecker' target in the 'WakeupChecker' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
